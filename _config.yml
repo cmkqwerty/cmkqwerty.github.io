@@ -1,0 +1,43 @@
+theme: jekyll-theme-hacker
+name: cmkqwerty blog
+description: backend developer
+avatar: ../images/logo.png
+footer-links:
+  dribbble:
+  email: cemeke10@gmail.com
+  facebook:
+  flickr:
+  github: cmkqwerty
+  instagram:
+  linkedin: cmkqwerty
+  pinterest:
+  rss:
+  twitter: cmk_qwerty
+  stackoverflow:
+  youtube:
+  googleplus:
+
+disqus:
+google_analytics:
+url:
+baseurl: ""
+permalink: /:title/
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-admin
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
